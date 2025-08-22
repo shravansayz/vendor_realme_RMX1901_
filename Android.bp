@@ -17095,6 +17095,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     system_ext_specific: true,
+    allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
